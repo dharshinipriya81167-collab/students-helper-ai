@@ -1,0 +1,9 @@
+# Core web application
+Flask>=3.0,<4.0
+
+# PDF text extraction (optional, used by the PDF Reader)
+PyPDF2>=3.0,<4.0
+
+# Image loading and OCR support (optional, used by Question Scanner)
+Pillow>=10.0,<12.0
+pytesseract>=0.3.10,<0.4
